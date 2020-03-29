@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee">
+  <Armour>
+    <Hack>4</Hack>
+    <Pierce>2</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>8.5</Hack>
+      <Pierce>0</Pierce>
+      <Crush>0.0</Crush>
+      <RepeatTime>800</RepeatTime>
+      <PreferredClasses datatype="tokens">Siege Cavalry Ranged Human</PreferredClasses>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <wood>40</wood>
+      <metal>20</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <VisibleClasses datatype="tokens">Swordsman</VisibleClasses>
+    <GenericName>Cavalry Swordsman</GenericName>
+  </Identity>
+  <Loot>
+    <wood>0</wood>
+    <metal>5</metal>
+  </Loot>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.05</WalkSpeed>
+  </UnitMotion>
+</Entity>

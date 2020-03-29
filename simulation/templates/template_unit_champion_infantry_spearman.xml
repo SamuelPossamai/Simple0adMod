@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry">
+  <Armour>
+    <Hack op="add">3</Hack>
+    <Pierce op="add">3</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>7.5</Hack>
+      <Pierce>4.5</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>4.5</MaxRange>
+      <PrepareTime>450</PrepareTime>
+      <RepeatTime>900</RepeatTime>
+      <Bonuses>
+        <BonusCavMelee>
+          <Classes>Cavalry</Classes>
+          <Multiplier>2.0</Multiplier>
+        </BonusCavMelee>
+      </Bonuses>
+      <PreferredClasses datatype="tokens">Melee Siege Human</PreferredClasses>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <wood>60</wood>
+      <metal>130</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>240</Max>
+  </Health>
+  <Identity>
+    <VisibleClasses datatype="tokens">Melee Spearman</VisibleClasses>
+    <GenericName>Champion Spearman</GenericName>
+    <Tooltip>Counters: 2x vs. Cavalry.</Tooltip>
+    <Formations datatype="tokens">
+      special/formations/testudo
+    </Formations>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/spear_attack.xml</attack_melee>
+    </SoundGroups>
+  </Sound>
+</Entity>

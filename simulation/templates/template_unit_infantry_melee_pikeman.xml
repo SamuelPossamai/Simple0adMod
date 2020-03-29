@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee">
+  <Armour>
+    <Hack>15</Hack>
+    <Pierce>12</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>1.5</Hack>
+      <Pierce>3.0</Pierce>
+      <MaxRange>7.0</MaxRange>
+      <RepeatTime>2000</RepeatTime>
+      <Bonuses>
+        <BonusCavMelee>
+          <Classes>Cavalry</Classes>
+          <Multiplier>2.5</Multiplier>
+        </BonusCavMelee>
+      </Bonuses>
+      <PreferredClasses datatype="tokens">Melee Siege Human</PreferredClasses>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <food op="add">10</food>
+      <wood>60</wood>
+    </Resources>
+  </Cost>
+  <Identity>
+    <VisibleClasses datatype="tokens">Pikeman</VisibleClasses>
+    <GenericName>Pikeman</GenericName>
+    <Tooltip>Counters: 2.5x vs. Cavalry.</Tooltip>
+    <Formations datatype="tokens">
+      special/formations/syntagma
+    </Formations>
+  </Identity>
+  <Loot>
+    <wood>5</wood>
+  </Loot>
+  <UnitMotion>
+    <WalkSpeed op="mul">0.75</WalkSpeed>
+    <Run>
+        <Speed op="mul">0.9</Speed>
+    </Run>
+  </UnitMotion>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/pike_attack.xml</attack_melee>
+    </SoundGroups>
+  </Sound>
+</Entity>

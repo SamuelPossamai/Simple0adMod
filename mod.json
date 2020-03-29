@@ -1,0 +1,8 @@
+{
+	"name": "simple-0ad-mod-of-mine",
+	"version": "0.1.0",
+	"label": "Simple Mod Of Mine",
+	"url": "",
+	"description": "Just modifying something because I want to.",
+	"dependencies": ["0ad=0.0.23"]
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry">
+  <Attack>
+    <Ranged>
+      <Hack>0.2</Hack>
+      <Pierce>3.0</Pierce>
+      <Crush>0</Crush>
+      <MaxRange>78</MaxRange>
+      <MinRange>12.0</MinRange>
+      <PrepareTime>300</PrepareTime>
+      <RepeatTime>500</RepeatTime>
+      <Delay>0</Delay>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <Spread>1.0</Spread>
+      <Gravity>39.81</Gravity>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>135</Max>
+  </Health>
+  <Identity>
+    <VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>
+    <GenericName>Champion Archer</GenericName>
+    <Formations datatype="tokens">
+      special/formations/skirmish
+    </Formations>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.2</WalkSpeed>
+    <Run>
+      <Speed op="mul">1.22</Speed>
+    </Run>
+  </UnitMotion>
+</Entity>
