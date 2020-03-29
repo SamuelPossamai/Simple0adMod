@@ -42,9 +42,4 @@
         <Speed op="mul">0.9</Speed>
     </Run>
   </UnitMotion>
-  <Sound>
-    <SoundGroups>
-      <attack_melee>attack/weapon/pike_attack.xml</attack_melee>
-    </SoundGroups>
-  </Sound>
 </Entity>

@@ -18,7 +18,7 @@
   </Cost>
   <Decay>
     <Active>false</Active>
-	<SinkingAnim>false</SinkingAnim>
+    <SinkingAnim>false</SinkingAnim>
     <DelayTime>60.0</DelayTime>
     <SinkRate>0.02</SinkRate>
     <SinkAccel>0.0</SinkAccel>
@@ -86,8 +86,8 @@
   <Sound>
     <SoundGroups>
       <attacked>interface/alarm/alarm_attackplayer.xml</attacked>
-	  <attack_slaughter>attack/weapon/sword.xml</attack_slaughter>
-      <attack_impact_ranged>attack/impact/impact_arrow_all.xml</attack_impact_ranged>
+      <attack_slaughter>attack/weapon/sword.xml</attack_slaughter>
+      <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>
       <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
     </SoundGroups>
   </Sound>
@@ -101,7 +101,7 @@
     <FleeDistance>20.0</FleeDistance>
     <FormationController>false</FormationController>
     <CanGuard>true</CanGuard>
-	<CanPatrol>true</CanPatrol>
+    <CanPatrol>true</CanPatrol>
   </UnitAI>
   <Guard/>
   <UnitMotion>
@@ -117,10 +117,10 @@
     <PassabilityClass>default</PassabilityClass>
   </UnitMotion>
   <Visibility>
-	<RetainInFog>false</RetainInFog>
-	<AlwaysVisible>false</AlwaysVisible>
-	<Corpse>false</Corpse>
-	<Preview>false</Preview>
+    <RetainInFog>false</RetainInFog>
+    <AlwaysVisible>false</AlwaysVisible>
+    <Corpse>false</Corpse>
+    <Preview>false</Preview>
   </Visibility>
   <Vision>
     <Range>10</Range>

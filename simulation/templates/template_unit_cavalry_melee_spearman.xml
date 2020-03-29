@@ -25,11 +25,6 @@
     <GenericName>Cavalry Spearman</GenericName>
     <Tooltip>Counters: 1.5x vs. Cavalry.</Tooltip>
   </Identity>
-  <Sound>
-    <SoundGroups>
-      <attack_melee>attack/weapon/spear_attack.xml</attack_melee>
-    </SoundGroups>
-  </Sound>
   <Loot>
     <wood>5</wood>
     <metal>0</metal>

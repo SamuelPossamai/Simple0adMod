@@ -31,9 +31,4 @@
   <Loot>
     <wood>5</wood>
   </Loot>
-  <Sound>
-    <SoundGroups>
-      <attack_melee>attack/weapon/spear_attack.xml</attack_melee>
-    </SoundGroups>
-  </Sound>
 </Entity>

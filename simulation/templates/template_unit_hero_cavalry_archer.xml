@@ -23,9 +23,4 @@
       special/formations/skirmish
     </Formations>
   </Identity>
-  <Sound>
-    <SoundGroups>
-      <death>actor/fauna/death/death_horse.xml</death>
-    </SoundGroups>
-  </Sound>
 </Entity>
