@@ -7,6 +7,7 @@
   <Attack>
     <Capture disable=""/>
     <Ranged>
+      <MinRange>0.0</MinRange>
       <RepeatTime>400</RepeatTime>
     </Ranged>
   </Attack>
@@ -14,7 +15,7 @@
     <BuildTime>45</BuildTime>
     <Population>5</Population>
     <Resources>
-      <food>550</food>
+      <food>750</food>
       <wood>100</wood>
       <metal>10</metal>
     </Resources>
@@ -71,6 +72,7 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/mauryas/elephantry_archer_b_m.xml</Actor>
+    <Actor>units/mauryans/elephantry_archer_b_m.xml</Actor>
   </VisualActor>
+  <Auras datatype="tokens">-small_trample big_trample</Auras>
 </Entity>

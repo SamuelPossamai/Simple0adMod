@@ -32,7 +32,7 @@
     <Max>240</Max>
   </Health>
   <Identity>
-    <VisibleClasses datatype="tokens">Melee Pikeman</VisibleClasses>
+    <VisibleClasses datatype="tokens">Melee Pike</VisibleClasses>
     <GenericName>Champion Pikeman</GenericName>
     <Tooltip>Counters: 2.5x vs. Cavalry.</Tooltip>
     <Formations datatype="tokens">

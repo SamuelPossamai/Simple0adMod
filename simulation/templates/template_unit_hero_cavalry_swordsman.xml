@@ -12,11 +12,11 @@
       <MaxRange>3.5</MaxRange>
       <PrepareTime>375</PrepareTime>
       <RepeatTime>750</RepeatTime>
-      <PreferredClasses datatype="tokens">Siege Cavalry Ranged Human</PreferredClasses>
+      <PreferredClasses datatype="tokens">MeleeCavalryPreferredTarget Siege Cavalry Ranged Human</PreferredClasses>
     </Melee>
   </Attack>
   <Identity>
-    <VisibleClasses datatype="tokens">Melee Swordsman</VisibleClasses>
+    <VisibleClasses datatype="tokens">Melee Sword</VisibleClasses>
     <GenericName>Champion Cavalry Swordsman</GenericName>
   </Identity>
   <UnitMotion>

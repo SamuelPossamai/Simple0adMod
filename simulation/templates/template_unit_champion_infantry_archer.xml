@@ -25,6 +25,7 @@
     <Max>135</Max>
   </Health>
   <Identity>
+    <Classes datatype="tokens">MeleeCavalryPreferredTarget</Classes>
     <VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>
     <GenericName>Champion Archer</GenericName>
     <Formations datatype="tokens">

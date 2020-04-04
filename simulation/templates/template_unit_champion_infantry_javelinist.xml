@@ -25,7 +25,8 @@
     <Max>150</Max>
   </Health>
   <Identity>
-    <VisibleClasses datatype="tokens">Ranged Javelinist</VisibleClasses>
+    <Classes datatype="tokens">MeleeCavalryPreferredTarget</Classes>
+    <VisibleClasses datatype="tokens">Ranged Javelin</VisibleClasses>
     <GenericName>Champion Skirmisher</GenericName>
     <Formations datatype="tokens">
       special/formations/skirmish

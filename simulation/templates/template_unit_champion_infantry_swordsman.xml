@@ -25,7 +25,7 @@
     <Max>240</Max>
   </Health>
   <Identity>
-    <VisibleClasses datatype="tokens">Melee Swordsman</VisibleClasses>
+    <VisibleClasses datatype="tokens">Melee Sword</VisibleClasses>
     <GenericName>Champion Swordsman</GenericName>
     <Formations datatype="tokens">
       special/formations/testudo

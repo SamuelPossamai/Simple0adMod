@@ -34,7 +34,7 @@
     <Max>200</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Human CitizenSoldier</Classes>
+    <Classes datatype="tokens">Human CitizenSoldier MeleeCavalryPreferredTarget</Classes>
     <VisibleClasses datatype="tokens">Citizen Soldier Cavalry</VisibleClasses>
     <GenericName>Cavalry</GenericName>
     <Rank>Basic</Rank>
@@ -104,4 +104,5 @@
   <Vision>
     <Range>100</Range>
   </Vision>
+  <Auras datatype="tokens">small_trample</Auras>
 </Entity>

@@ -15,7 +15,7 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Cost>
-    <Population>2</Population>
+    <Population>1</Population>
   </Cost>
   <Loot>
     <xp>200</xp>

@@ -6,10 +6,10 @@
     <Crush>20</Crush>
   </Armour>
   <Cost>
-    <Population>3</Population>
+    <Population>2</Population>
     <BuildTime>50</BuildTime>
     <Resources>
-      <food>300</food>
+      <food>350</food>
       <wood>0</wood>
       <stone>0</stone>
       <metal>150</metal>
@@ -23,6 +23,7 @@
     <Max>240</Max>
   </Health>
   <Identity>
+    <Classes datatype="tokens">MeleeCavalryPreferredTarget</Classes>
     <VisibleClasses datatype="tokens">Cavalry</VisibleClasses>
     <GenericName>Champion Cavalry</GenericName>
     <Formations datatype="tokens">
@@ -66,4 +67,5 @@
   <Vision>
     <Range>96</Range>
   </Vision>
+  <Auras datatype="tokens">small_trample</Auras>
 </Entity>

@@ -17,7 +17,8 @@
     </Ranged>
   </Attack>
   <Identity>
-    <VisibleClasses datatype="tokens">Ranged Javelinist</VisibleClasses>
+    <Classes datatype="tokens">MeleeCavalryPreferredTarget</Classes>
+    <VisibleClasses datatype="tokens">Ranged Javelin</VisibleClasses>
     <GenericName>Hero Skirmisher</GenericName>
     <Formations datatype="tokens">
       special/formations/skirmish

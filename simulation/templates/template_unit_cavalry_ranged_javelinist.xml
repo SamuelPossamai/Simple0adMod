@@ -26,7 +26,7 @@
     </Resources>
   </Cost>
   <Identity>
-    <VisibleClasses datatype="tokens">Javelinist</VisibleClasses>
+    <VisibleClasses datatype="tokens">Javelin</VisibleClasses>
     <GenericName>Cavalry Skirmisher</GenericName>
   </Identity>
   <Loot>

@@ -7,7 +7,7 @@
   </Armour>
   <Attack disable=""/>
   <Cost>
-    <Population>1</Population>
+    <Population>2</Population>
     <BuildTime>35</BuildTime>
     <Resources>
       <food>500</food>

@@ -22,7 +22,7 @@
     </Melee>
   </Attack>
   <Identity>
-    <VisibleClasses datatype="tokens">Melee Spearman</VisibleClasses>
+    <VisibleClasses datatype="tokens">Melee Spear</VisibleClasses>
     <GenericName>Hero Spearman</GenericName>
     <Tooltip>Counters: 2x vs. Cavalry.</Tooltip>
     <Formations datatype="tokens">

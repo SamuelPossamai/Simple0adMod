@@ -12,7 +12,7 @@
       <MaxRange>3.5</MaxRange>
       <PrepareTime>375</PrepareTime>
       <RepeatTime>750</RepeatTime>
-      <PreferredClasses datatype="tokens">Cavalry Ranged Siege Human</PreferredClasses>
+      <PreferredClasses datatype="tokens">MeleeCavalryPreferredTarget Cavalry Ranged Siege Human</PreferredClasses>
     </Melee>
   </Attack>
   <Identity>

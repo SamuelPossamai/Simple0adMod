@@ -23,7 +23,7 @@
     </Melee>
   </Attack>
   <Identity>
-    <VisibleClasses datatype="tokens">Melee Pikeman</VisibleClasses>
+    <VisibleClasses datatype="tokens">Melee Pike</VisibleClasses>
     <GenericName>Hero Pikeman</GenericName>
     <Tooltip>Counters: 2.5x vs. Cavalry.</Tooltip>
     <Formations datatype="tokens">

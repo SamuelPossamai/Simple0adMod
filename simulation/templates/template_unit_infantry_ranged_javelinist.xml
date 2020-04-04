@@ -30,7 +30,7 @@
     </Resources>
   </Cost>
   <Identity>
-    <VisibleClasses datatype="tokens">Javelinist</VisibleClasses>
+    <VisibleClasses datatype="tokens">Javelin</VisibleClasses>
     <GenericName>Skirmisher</GenericName>
   </Identity>
   <Loot>

@@ -17,7 +17,7 @@
     </Ranged>
   </Attack>
   <Identity>
-    <VisibleClasses datatype="tokens">Ranged Javelinist</VisibleClasses>
+    <VisibleClasses datatype="tokens">Ranged Javelin</VisibleClasses>
     <GenericName>Hero Cavalry Skirmisher</GenericName>
     <Formations datatype="tokens">
       special/formations/skirmish

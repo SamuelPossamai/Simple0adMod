@@ -39,10 +39,10 @@
     <GenericName>Unit</GenericName>
     <Classes datatype="tokens">Unit Organic ConquestCritical Civilian</Classes>
     <Formations datatype="tokens">
-	  special/formations/null
-	  special/formations/line_closed
-	  special/formations/line_open
-	  special/formations/column_closed
+      special/formations/null
+      special/formations/line_closed
+      special/formations/line_open
+      special/formations/column_closed
     </Formations>
     <Undeletable>false</Undeletable>
   </Identity>

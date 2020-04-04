@@ -20,7 +20,7 @@
     <Population>6</Population>
     <BuildTime>80</BuildTime>
     <Resources>
-      <food>800</food>
+      <food>1000</food>
       <wood>0</wood>
       <stone>0</stone>
       <metal>400</metal>
@@ -72,4 +72,5 @@
   <Vision>
     <Range>100</Range>
   </Vision>
+  <Auras>big_trample</Auras>
 </Entity>

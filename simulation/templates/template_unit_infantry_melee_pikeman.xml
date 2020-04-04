@@ -26,7 +26,7 @@
     </Resources>
   </Cost>
   <Identity>
-    <VisibleClasses datatype="tokens">Pikeman</VisibleClasses>
+    <VisibleClasses datatype="tokens">Pike</VisibleClasses>
     <GenericName>Pikeman</GenericName>
     <Tooltip>Counters: 2.5x vs. Cavalry.</Tooltip>
     <Formations datatype="tokens">

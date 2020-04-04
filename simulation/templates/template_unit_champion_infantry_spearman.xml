@@ -31,7 +31,7 @@
     <Max>240</Max>
   </Health>
   <Identity>
-    <VisibleClasses datatype="tokens">Melee Spearman</VisibleClasses>
+    <VisibleClasses datatype="tokens">Melee Spear</VisibleClasses>
     <GenericName>Champion Spearman</GenericName>
     <Tooltip>Counters: 2x vs. Cavalry.</Tooltip>
     <Formations datatype="tokens">

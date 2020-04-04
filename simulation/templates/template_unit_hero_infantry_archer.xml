@@ -17,6 +17,7 @@
     </Ranged>
   </Attack>
   <Identity>
+    <Classes datatype="tokens">MeleeCavalryPreferredTarget</Classes>
     <VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>
     <GenericName>Hero Archer</GenericName>
     <Formations datatype="tokens">

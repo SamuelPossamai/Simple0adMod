@@ -18,7 +18,7 @@
       </Bonuses>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>2000</RepeatTime>
-      <PreferredClasses datatype="tokens">Cavalry Ranged Siege Human</PreferredClasses>
+      <PreferredClasses datatype="tokens">MeleeCavalryPreferredTarget Cavalry Ranged Siege Human</PreferredClasses>
     </Melee>
   </Attack>
   <Cost>
@@ -28,10 +28,10 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>350</Max>
+    <Max>400</Max>
   </Health>
   <Identity>
-    <VisibleClasses datatype="tokens">Melee Spearman</VisibleClasses>
+    <VisibleClasses datatype="tokens">Melee Spear</VisibleClasses>
     <GenericName>Champion Cavalry Spearman</GenericName>
     <Tooltip>Counters: 1.5x vs. Cavalry.</Tooltip>
   </Identity>
