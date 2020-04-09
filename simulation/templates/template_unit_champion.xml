@@ -2,7 +2,7 @@
 <Entity parent="template_unit">
   <Attack>
     <Capture>
-      <Value>12</Value>
+      <Value>10</Value>
       <MaxRange>4</MaxRange>
       <RepeatTime>1000</RepeatTime>
       <RestrictedClasses datatype="tokens">Field Palisade SiegeWall StoneWall</RestrictedClasses>

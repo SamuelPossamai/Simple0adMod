@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion">
   <Armour>
     <Hack>10</Hack>
-    <Pierce>10</Pierce>
+    <Pierce>7</Pierce>
     <Crush>25</Crush>
   </Armour>
   <Cost>

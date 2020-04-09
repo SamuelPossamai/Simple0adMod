@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero">
   <Armour>
     <Hack>10</Hack>
-    <Pierce>10</Pierce>
+    <Pierce>7</Pierce>
     <Crush>25</Crush>
   </Armour>
   <Attack replace="">

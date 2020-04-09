@@ -15,7 +15,7 @@
       <RepeatTime>2000</RepeatTime>
       <Bonuses>
         <BonusCavMelee>
-          <Classes>Cavalry</Classes>
+          <Classes>Cavalry Elephant</Classes>
           <Multiplier>2.5</Multiplier>
         </BonusCavMelee>
       </Bonuses>
@@ -34,7 +34,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">Melee Pike</VisibleClasses>
     <GenericName>Champion Pikeman</GenericName>
-    <Tooltip>Counters: 2.5x vs. Cavalry.</Tooltip>
+    <Tooltip>Counters: 2.5x vs. Cavalry/Elephant.</Tooltip>
     <Formations datatype="tokens">
       special/formations/syntagma
       special/formations/testudo
