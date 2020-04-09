@@ -1,6 +1,6 @@
 {
     "type": "range",
-    "radius": 10,
+    "radius": 7.5,
     "affectedPlayers": ["Enemy"],
     "affects": ["Unit"],
     "modifications": [
@@ -8,5 +8,6 @@
     ],
     "auraName": "Big Trample",
     "auraDescription": "Nearby enemy units -4 health/second.",
-    "overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+    "overlayIcon": "art/textures/ui/session/auras/attack_bonus.png",
+    "stackable": true
 }

@@ -8,5 +8,6 @@
     ],
     "auraName": "Trample",
     "auraDescription": "Nearby enemy units -2 health/second.",
-    "overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+    "overlayIcon": "art/textures/ui/session/auras/attack_bonus.png",
+    "stackable": true
 }

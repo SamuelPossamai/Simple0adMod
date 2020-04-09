@@ -1,6 +1,6 @@
 {
     "type": "range",
-    "radius": 2.5,
+    "radius": 3.5,
     "affectedPlayers": ["Enemy"],
     "affects": ["Unit"],
     "modifications": [
@@ -8,5 +8,6 @@
     ],
     "auraName": "Small Trample",
     "auraDescription": "Nearby enemy units -0.5 health/second.",
-    "overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+    "overlayIcon": "art/textures/ui/session/auras/attack_bonus.png",
+    "stackable": true
 }
