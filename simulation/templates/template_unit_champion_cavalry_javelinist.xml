@@ -5,7 +5,7 @@
       <Hack>1.0</Hack>
       <Pierce>6.0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>32.0</MaxRange>
+      <MaxRange>30.0</MaxRange>
       <MinRange>18.0</MinRange>
       <PrepareTime>550</PrepareTime>
       <RepeatTime>1250</RepeatTime>

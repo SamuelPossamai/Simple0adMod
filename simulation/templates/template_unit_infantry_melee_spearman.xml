@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee">
   <Armour>
-    <Hack>5</Hack>
-    <Pierce>6</Pierce>
+    <Hack>7</Hack>
+    <Pierce>5</Pierce>
   </Armour>
   <Attack>
     <Melee>
