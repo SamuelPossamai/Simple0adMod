@@ -27,6 +27,6 @@
     <Tooltip>Counters: 1.5x vs. Cavalry.</Tooltip>
   </Identity>
   <UnitMotion>
-    <WalkSpeed op="mul">1.00</WalkSpeed>
+    <WalkSpeed op="mul">1.01</WalkSpeed>
   </UnitMotion>
 </Entity>

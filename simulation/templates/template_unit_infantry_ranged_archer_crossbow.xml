@@ -9,7 +9,7 @@
     <Attack>
         <Ranged>
             <Spread>1.8</Spread>
-            <Pierce op="add">2.0</Pierce>
+            <Pierce op="add">2.5</Pierce>
             <Crush op="add">0.2</Crush>
             <MaxRange op="add">7.0</MaxRange>
             <ProjectileSpeed>150.0</ProjectileSpeed>
@@ -21,15 +21,15 @@
         <BuildTime op="mul">0.5</BuildTime>
         <Resources>
             <food op="add">-20</food>
-            <wood op="add">20</wood>
-            <metal op="add">10</metal>
+            <wood op="add">30</wood>
+            <metal op="add">5</metal>
         </Resources>
     </Cost>
     <Loot>
         <wood>10</wood>
     </Loot>
     <UnitMotion>
-        <WalkSpeed op="mul">0.9</WalkSpeed>
+        <WalkSpeed op="mul">1</WalkSpeed>
         <Run>
             <Speed op="mul">0.9</Speed>
         </Run>

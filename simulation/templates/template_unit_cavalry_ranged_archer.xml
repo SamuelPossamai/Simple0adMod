@@ -3,12 +3,12 @@
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>3</Pierce>
+      <Pierce>3.2</Pierce>
       <Crush>0</Crush>
       <MaxRange>52.0</MaxRange>
       <MinRange>18.0</MinRange>
       <PrepareTime>500</PrepareTime>
-      <RepeatTime>1100</RepeatTime>
+      <RepeatTime>1000</RepeatTime>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <Spread>3.2</Spread>
       <Bonuses>

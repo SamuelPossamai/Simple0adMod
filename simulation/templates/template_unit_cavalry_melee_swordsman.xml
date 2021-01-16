@@ -27,7 +27,4 @@
     <wood>0</wood>
     <metal>5</metal>
   </Loot>
-  <UnitMotion>
-    <WalkSpeed op="mul">1.05</WalkSpeed>
-  </UnitMotion>
 </Entity>

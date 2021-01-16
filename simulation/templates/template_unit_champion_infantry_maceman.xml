@@ -6,12 +6,12 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>1.5</Hack>
-      <Pierce>3.0</Pierce>
-      <Crush>8.5</Crush>
+      <Hack>6.5</Hack>
+      <Pierce>0.0</Pierce>
+      <Crush>3.0</Crush>
       <MaxRange>3.5</MaxRange>
       <PrepareTime>500</PrepareTime>
-      <RepeatTime>850</RepeatTime>
+      <RepeatTime>750</RepeatTime>
       <PreferredClasses datatype="tokens">Melee Siege Human</PreferredClasses>
     </Melee>
   </Attack>

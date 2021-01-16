@@ -6,7 +6,7 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>7</Hack>
+      <Hack>6.5</Hack>
       <Pierce>0</Pierce>
       <RepeatTime>800</RepeatTime>
       <PreferredClasses datatype="tokens">Melee Siege Human</PreferredClasses>
@@ -14,8 +14,8 @@
   </Attack>
   <Cost>
     <Resources>
-      <wood>40</wood>
-      <metal>10</metal>
+      <wood>45</wood>
+      <metal>5</metal>
     </Resources>
   </Cost>
   <Identity>
@@ -23,10 +23,10 @@
     <GenericName>Swordsman</GenericName>
   </Identity>
   <Loot>
-    <metal>5</metal>
+    <metal>3</metal>
   </Loot>
   <UnitMotion>
-    <WalkSpeed op="mul">1.1</WalkSpeed>
+    <WalkSpeed op="mul">1.2</WalkSpeed>
     <Run>
       <Speed op="mul">1.1</Speed>
     </Run>

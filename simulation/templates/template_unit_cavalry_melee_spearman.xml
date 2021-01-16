@@ -30,6 +30,6 @@
     <metal>0</metal>
   </Loot>
   <UnitMotion>
-    <WalkSpeed op="mul">1.05</WalkSpeed>
+    <WalkSpeed op="mul">1.01</WalkSpeed>
   </UnitMotion>
 </Entity>
