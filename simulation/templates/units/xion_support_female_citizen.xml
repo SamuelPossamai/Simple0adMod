@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Attack>
     <Ranged>
-      <MaxRange op="mul">0.72</MaxRange>
+      <MaxRange op="mul">0.4</MaxRange>
     </Ranged>
   </Attack>
   <Auras datatype="tokens">
@@ -10,7 +10,7 @@
   </Auras>
   <Cost>
     <Resources>
-        <wood op="mul">0.50</wood>
+        <wood>0</wood>
     </Resources>
   </Cost>
   <Builder>

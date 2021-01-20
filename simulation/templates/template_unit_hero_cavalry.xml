@@ -6,7 +6,7 @@
     <Crush>20</Crush>
   </Armour>
   <Cost>
-    <Population>3</Population>
+    <Population>2</Population>
     <BuildTime>50</BuildTime>
     <Resources>
       <food>350</food>
