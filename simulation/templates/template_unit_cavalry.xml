@@ -53,7 +53,7 @@
     <Anchor>pitch</Anchor>
   </Position>
   <Promotion>
-    <RequiredXp>150</RequiredXp>
+    <RequiredXp>320</RequiredXp>
   </Promotion>
   <ResourceGatherer>
     <MaxDistance>2.0</MaxDistance>

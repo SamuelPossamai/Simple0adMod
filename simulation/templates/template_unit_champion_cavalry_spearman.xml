@@ -28,7 +28,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>400</Max>
+    <Max>450</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Melee Spear</VisibleClasses>

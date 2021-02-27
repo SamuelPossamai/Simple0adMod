@@ -17,7 +17,7 @@
   </Cost>
   <Heal>
     <Range>30</Range>
-    <HP>6</HP>
+    <HP>15</HP>
     <Rate>2000</Rate>
     <UnhealableClasses datatype="tokens"/>
     <HealableClasses datatype="tokens">Human</HealableClasses>

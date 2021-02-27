@@ -25,7 +25,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <Max op="mul">5</Max>
+    <Max op="mul">4</Max>
   </Health>
   <Identity>
     <Civ>maur</Civ>
@@ -37,7 +37,7 @@
     <SpecificName>Vachii Gaja</SpecificName>
   </Identity>
   <Loot>
-    <xp>200</xp>
+    <xp>250</xp>
     <food>25</food>
     <wood>10</wood>
     <stone>0</stone>
