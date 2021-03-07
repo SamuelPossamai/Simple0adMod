@@ -1,0 +1,15 @@
+{
+    "type": "range",
+    "radius": 4,
+    "affectedPlayers": ["Enemy"],
+    "affects": ["Unit"],
+    "modifications": [
+        {
+            "value": "UnitMotion/WalkSpeed",
+            "multiply": 0.9
+        }
+    ],
+    "auraName": "Weak Zone of Control",
+    "auraDescription": "Nearby enemy units -10% walk speed.",
+    "stackable": false
+}

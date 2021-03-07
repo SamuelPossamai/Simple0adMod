@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee">
-  <Armour>
-    <Hack>7</Hack>
-    <Pierce>5</Pierce>
-  </Armour>
   <Attack>
     <Melee>
-      <Hack>4.0</Hack>
-      <Pierce>2.5</Pierce>
+      <AttackName>Spear</AttackName>
+      <Damage>
+        <Hack>5.5</Hack>
+        <Pierce>0</Pierce>
+        <Crush>0</Crush>
+      </Damage>
       <MaxRange>4.5</MaxRange>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
       <Bonuses>
         <BonusCavMelee>
           <Classes>Cavalry</Classes>
           <Multiplier>2.0</Multiplier>
         </BonusCavMelee>
       </Bonuses>
-      <PreferredClasses datatype="tokens">Melee Siege Human</PreferredClasses>
     </Melee>
   </Attack>
   <Cost>
@@ -24,11 +25,25 @@
     </Resources>
   </Cost>
   <Identity>
-    <VisibleClasses datatype="tokens">Spear</VisibleClasses>
     <GenericName>Spearman</GenericName>
-    <Tooltip>Counters: 2.0x vs. Cavalry.</Tooltip>
+    <Tooltip>Counters: 2× vs Cavalry.</Tooltip>
+    <VisibleClasses datatype="tokens">Spearman</VisibleClasses>
   </Identity>
   <Loot>
     <wood>5</wood>
   </Loot>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>7</Hack>
+        <Pierce>5</Pierce>
+        <Crush op="add">2</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/spear_attack.xml</attack_melee>
+    </SoundGroups>
+  </Sound>
 </Entity>

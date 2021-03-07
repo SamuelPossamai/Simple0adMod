@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_archer">
+  <Attack>
+    <Ranged>
+      <AttackName>Crossbow</AttackName>
+      <Damage>
+        <Hack>0</Hack>
+        <Pierce op="mul">3</Pierce>
+        <Crush>1</Crush>
+      </Damage>
+      <MaxRange>50</MaxRange>
+      <MinRange>16</MinRange>
+      <PrepareTime>2400</PrepareTime>
+      <RepeatTime>3000</RepeatTime>
+      <Delay>0</Delay>
+      <Projectile>
+        <Speed>120.0</Speed>
+        <Spread>0.8</Spread>
+        <Gravity>30.0</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>mace</Civ>
+    <VisibleClasses datatype="tokens">-Archer Crossbowman</VisibleClasses>
+    <Lang>greek</Lang>
+    <GenericName>Champion Crossbowman</GenericName>
+    <SpecificName>Gastraphetophoros</SpecificName>
+    <Icon>units/mace_champion_infantry_crossbowman.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/macedonians/infantry_crossbowman_c.xml</Actor>
+  </VisualActor>
+</Entity>

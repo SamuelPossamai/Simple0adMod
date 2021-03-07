@@ -1,0 +1,15 @@
+{
+    "type": "range",
+    "radius": 30,
+    "affectedPlayers": ["Enemy"],
+    "affects": ["Unit"],
+    "modifications": [
+        {
+            "value": "UnitMotion/WalkSpeed",
+            "multiply": 0.975
+        }
+    ],
+    "auraName": "Strong Zone of Caution",
+    "auraDescription": "Cause enemies to move slighly slower(stackable).",
+    "stackable": true
+}

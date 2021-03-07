@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry">
-  <Armour>
-    <Hack op="add">4</Hack>
-    <Pierce op="add">3</Pierce>
-  </Armour>
   <Attack>
     <Melee>
-      <Hack>7.5</Hack>
-      <Pierce>4.5</Pierce>
-      <Crush>0.0</Crush>
+      <AttackName>Spear</AttackName>
+      <Damage>
+        <Hack>8</Hack>
+        <Pierce>0</Pierce>
+        <Crush>0</Crush>
+      </Damage>
       <MaxRange>4.5</MaxRange>
       <PrepareTime>450</PrepareTime>
       <RepeatTime>900</RepeatTime>
@@ -18,24 +17,33 @@
           <Multiplier>2.0</Multiplier>
         </BonusCavMelee>
       </Bonuses>
-      <PreferredClasses datatype="tokens">Melee Siege Human</PreferredClasses>
+      <PreferredClasses datatype="tokens">Melee Siege Organic</PreferredClasses>
     </Melee>
   </Attack>
-  <Cost>
-    <Resources>
-      <wood>60</wood>
-      <metal>130</metal>
-    </Resources>
-  </Cost>
   <Health>
-    <Max>240</Max>
+    <Max>200</Max>
   </Health>
   <Identity>
-    <VisibleClasses datatype="tokens">Melee Spear</VisibleClasses>
     <GenericName>Champion Spearman</GenericName>
-    <Tooltip>Counters: 2x vs. Cavalry.</Tooltip>
+    <Tooltip>Counters: 2× vs Cavalry.</Tooltip>
+    <VisibleClasses datatype="tokens">Melee Spearman</VisibleClasses>
     <Formations datatype="tokens">
       special/formations/testudo
     </Formations>
   </Identity>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack op="add">5</Hack>
+        <Pierce op="add">3</Pierce>
+        <Crush op="add">2</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/spear_attack.xml</attack_melee>
+    </SoundGroups>
+  </Sound>
+  <Auras datatype="tokens">medium_control_zone medium_caution_zone</Auras>
 </Entity>

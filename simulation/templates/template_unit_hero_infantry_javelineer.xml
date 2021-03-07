@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry">
+  <Attack>
+    <Ranged>
+      <AttackName>Javelin</AttackName>
+      <Damage>
+        <Hack>1</Hack>
+        <Pierce>5.5</Pierce>
+        <Crush>0</Crush>
+      </Damage>
+      <MaxRange>32</MaxRange>
+      <MinRange>16</MinRange>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <Delay>0</Delay>
+      <Projectile>
+        <Speed>70</Speed>
+        <Spread>1.6</Spread>
+        <Gravity>35.0</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <GenericName>Hero Infantry Javelineer</GenericName>
+    <VisibleClasses datatype="tokens">Ranged Javelineer</VisibleClasses>
+    <Formations datatype="tokens">
+      special/formations/skirmish
+    </Formations>
+  </Identity>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce op="add">-1</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/weapon/javelin_attack.xml</attack_ranged>
+      <attack_impact_ranged>attack/impact/javelin_impact.xml</attack_impact_ranged>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.25</WalkSpeed>
+  </UnitMotion>
+  <Auras datatype="tokens">weak_caution_zone</Auras>
+</Entity>

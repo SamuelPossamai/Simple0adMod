@@ -1,42 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion">
-  <Armour>
-    <Hack>10</Hack>
-    <Pierce>7</Pierce>
-    <Crush>25</Crush>
-  </Armour>
   <Cost>
     <Population>6</Population>
     <BuildTime>80</BuildTime>
     <Resources>
       <food>1000</food>
-      <wood>0</wood>
-      <stone>0</stone>
       <metal>250</metal>
     </Resources>
   </Cost>
-  <Footprint>
-    <Circle radius="3.5"/>
-    <Height>6.0</Height>
+  <Footprint replace="">
+    <Square width="4.5" depth="9.0"/>
+    <Height>9.0</Height>
   </Footprint>
   <Health>
-    <Max>1000</Max>
+    <Max>1200</Max>
   </Health>
   <Identity>
-    <VisibleClasses datatype="tokens">Elephant</VisibleClasses>
     <GenericName>War Elephant</GenericName>
+    <VisibleClasses datatype="tokens">Elephant</VisibleClasses>
   </Identity>
+  <Loot>
+    <xp>500</xp>
+    <food>100</food>
+    <metal>25</metal>
+  </Loot>
   <Position>
-    <Anchor>pitch</Anchor>
+    <TurnRate>3</TurnRate>
   </Position>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>arrow/256x256.png</MainTexture>
-        <MainTextureMask>arrow/256x256_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>15</Hack>
+        <Pierce>10</Pierce>
+        <Crush>20</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <Sound>
     <SoundGroups>
       <select>actor/fauna/animal/elephant_select.xml</select>
@@ -52,14 +51,13 @@
     </SoundGroups>
   </Sound>
   <StatusBars>
-    <HeightOffset>6.5</HeightOffset>
+    <HeightOffset>10.0</HeightOffset>
   </StatusBars>
   <UnitMotion>
     <PassabilityClass>large</PassabilityClass>
-    <WalkSpeed op="mul">0.95</WalkSpeed>
   </UnitMotion>
   <Vision>
     <Range>100</Range>
   </Vision>
-  <Auras datatype="tokens">big_trample</Auras>
+  <Auras datatype="tokens">big_trample strong_control_zone strong_caution_zone</Auras>
 </Entity>

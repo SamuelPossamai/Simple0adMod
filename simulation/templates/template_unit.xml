@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_entity_full">
-  <Armour>
-    <Hack>1</Hack>
-    <Pierce>1</Pierce>
-    <Crush>1</Crush>
-  </Armour>
+<Entity>
+  <AIProxy/>
   <Cost>
     <Population>1</Population>
-    <PopulationBonus>0</PopulationBonus>
     <BuildTime>1</BuildTime>
     <Resources>
       <food>0</food>
@@ -19,15 +14,16 @@
   <Decay>
     <Active>false</Active>
     <SinkingAnim>false</SinkingAnim>
-    <DelayTime>60.0</DelayTime>
-    <SinkRate>0.02</SinkRate>
+    <DelayTime>30.0</DelayTime>
+    <SinkRate>0.01</SinkRate>
     <SinkAccel>0.0</SinkAccel>
   </Decay>
   <Footprint>
     <Circle radius="1.5"/>
-    <Height>2.5</Height>
+    <Height>4.0</Height>
   </Footprint>
   <Garrisonable/>
+  <Guard/>
   <Health>
     <DeathType>corpse</DeathType>
     <Max>100</Max>
@@ -36,16 +32,23 @@
     <Unhealable>false</Unhealable>
   </Health>
   <Identity>
+    <Civ>gaia</Civ>
+    <Classes datatype="tokens">Unit Organic ConquestCritical</Classes>
     <GenericName>Unit</GenericName>
-    <Classes datatype="tokens">Unit Organic ConquestCritical Civilian</Classes>
     <Formations datatype="tokens">
       special/formations/null
-      special/formations/line_closed
-      special/formations/line_open
+      special/formations/box
       special/formations/column_closed
+      special/formations/line_closed
+      special/formations/column_open
+      special/formations/line_open
+      special/formations/flank
+      special/formations/battle_line
     </Formations>
+    <Phenotype datatype="tokens">male</Phenotype>
     <Undeletable>false</Undeletable>
   </Identity>
+  <Looter/>
   <Minimap>
     <Type>unit</Type>
   </Minimap>
@@ -61,7 +64,31 @@
     <DeleteUponConstruction>false</DeleteUponConstruction>
   </Obstruction>
   <OverlayRenderer/>
+  <Ownership/>
+  <Position>
+    <Altitude>0</Altitude>
+    <Anchor>pitch</Anchor>
+    <Floating>false</Floating>
+    <FloatDepth>0.0</FloatDepth>
+    <TurnRate>8</TurnRate>
+  </Position>
   <RangeOverlayManager/>
+  <RangeOverlayRenderer/>
+  <Resistance>
+    <Entity>
+      <ApplyStatus>
+        <Burning>
+            <Duration>0.0</Duration>
+            <BlockChance>0.95</BlockChance>
+        </Burning>
+      </ApplyStatus>
+      <Damage>
+        <Hack>1</Hack>
+        <Pierce>1</Pierce>
+        <Crush>1</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <ResourceGatherer>
     <MaxDistance>2.0</MaxDistance>
     <BaseSpeed>1.0</BaseSpeed>
@@ -78,17 +105,17 @@
   <Selectable>
     <Overlay>
       <Texture>
-        <MainTexture>circle/128x128.png</MainTexture>
-        <MainTextureMask>circle/128x128_mask.png</MainTextureMask>
+        <MainTexture>128x128/ellipse.png</MainTexture>
+        <MainTextureMask>128x128/ellipse_mask.png</MainTextureMask>
       </Texture>
     </Overlay>
   </Selectable>
   <Sound>
     <SoundGroups>
       <attacked>interface/alarm/alarm_attackplayer.xml</attacked>
-      <attack_slaughter>attack/weapon/sword.xml</attack_slaughter>
-      <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>
-      <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
+      <attacked_gaia>interface/alarm/alarm_attacked_gaia.xml</attacked_gaia>
+      <attacked_capture>interface/alarm/alarm_attackplayer.xml</attacked_capture>
+      <attacked_capture_gaia>interface/alarm/alarm_attacked_gaia.xml</attacked_capture_gaia>
     </SoundGroups>
   </Sound>
   <StatusBars>
@@ -96,25 +123,21 @@
     <BarHeight>0.333</BarHeight>
     <HeightOffset>5.0</HeightOffset>
   </StatusBars>
+  <StatusEffectsReceiver/>
   <UnitAI>
     <DefaultStance>aggressive</DefaultStance>
-    <FleeDistance>20.0</FleeDistance>
+    <FleeDistance>12.0</FleeDistance>
     <FormationController>false</FormationController>
     <CanGuard>true</CanGuard>
     <CanPatrol>true</CanPatrol>
+    <PatrolWaitTime>1</PatrolWaitTime>
+    <CheeringTime>2800</CheeringTime>
   </UnitAI>
-  <Guard/>
   <UnitMotion>
     <FormationController>false</FormationController>
-    <WalkSpeed>8.0</WalkSpeed>
-    <Run>
-      <Speed>13.0</Speed>
-      <Range>50.0</Range>
-      <RangeMin>0.0</RangeMin>
-      <RegenTime>0.1</RegenTime>
-      <DecayTime>0.2</DecayTime>
-    </Run>
     <PassabilityClass>default</PassabilityClass>
+    <WalkSpeed>8.0</WalkSpeed>
+    <RunMultiplier>1.5</RunMultiplier>
   </UnitMotion>
   <Visibility>
     <RetainInFog>false</RetainInFog>
@@ -123,7 +146,7 @@
     <Preview>false</Preview>
   </Visibility>
   <Vision>
-    <Range>10</Range>
+    <Range>12</Range>
   </Vision>
   <VisionSharing>
     <Bribable>false</Bribable>

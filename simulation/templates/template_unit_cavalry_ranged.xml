@@ -2,29 +2,47 @@
 <Entity parent="template_unit_cavalry">
   <Attack>
     <Ranged>
-      <Hack>0</Hack>
-      <Pierce>2.0</Pierce>
-      <Crush>0</Crush>
+      <Damage>
+        <Hack>0</Hack>
+        <Pierce>9.0</Pierce>
+        <Crush>0</Crush>
+      </Damage>
       <MaxRange>16.0</MaxRange>
       <MinRange>0.0</MinRange>
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>1500</RepeatTime>
       <Delay>0</Delay>
-      <ProjectileSpeed>75.0</ProjectileSpeed>
-      <Spread>3.0</Spread>
-      <Gravity>9.81</Gravity>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <Projectile>
+        <Speed>100.0</Speed>
+        <Spread>3.0</Spread>
+        <Gravity>9.81</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
     </Ranged>
   </Attack>
   <Health>
-    <Max>150</Max>
+    <Max>220</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">MeleeCavalryPreferredTarget</Classes>
     <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
     <GenericName>Ranged Cavalry</GenericName>
     <Formations datatype="tokens">
       special/formations/skirmish
     </Formations>
   </Identity>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.0625</WalkSpeed>
+  </UnitMotion>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>3</Hack>
+        <Pierce>1</Pierce>
+        <Crush>6</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Auras datatype="tokens">weak_control_zone weak_caution_zone</Auras>
 </Entity>

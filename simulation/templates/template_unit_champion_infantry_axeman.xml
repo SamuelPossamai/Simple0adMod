@@ -1,17 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_infantry_swordsman">
-    <Armour>
-        <Hack op="add">1.0</Hack>
-        <Pierce op="add">1.0</Pierce>
-    </Armour>
-    <Attack>
+<Entity parent="template_unit_champion_infantry">
+  <Attack>
     <Melee>
-        <Hack op="add">5.0</Hack>
-        <RepeatTime>1250</RepeatTime>
+      <AttackName>Axe</AttackName>
+      <Damage>
+        <Hack>9</Hack>
+        <Pierce>0</Pierce>
+        <Crush>3</Crush>
+      </Damage>
+      <MaxRange>3</MaxRange>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <PreferredClasses datatype="tokens">Melee Siege Organic</PreferredClasses>
     </Melee>
-    </Attack>
-    <Identity>
-        <VisibleClasses datatype="tokens">Melee Axe</VisibleClasses>
-        <GenericName>Champion Axeman</GenericName>
-    </Identity>
+  </Attack>
+  <Health>
+    <Max>200</Max>
+  </Health>
+  <Identity>
+    <VisibleClasses datatype="tokens">Melee Axeman</VisibleClasses>
+    <GenericName>Champion Axeman</GenericName>
+  </Identity>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack op="add">2</Hack>
+        <Pierce op="add">3</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword_attack.xml</attack_melee>
+    </SoundGroups>
+  </Sound>
+  <Auras datatype="tokens">medium_control_zone medium_caution_zone</Auras>
 </Entity>

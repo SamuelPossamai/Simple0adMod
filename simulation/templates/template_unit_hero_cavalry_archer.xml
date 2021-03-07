@@ -2,18 +2,25 @@
 <Entity parent="template_unit_hero_cavalry">
   <Attack>
     <Ranged>
-      <Hack>0.2</Hack>
-      <Pierce>3.0</Pierce>
-      <Crush>0</Crush>
-      <MaxRange>72.0</MaxRange>
-      <MinRange>18.0</MinRange>
-      <PrepareTime>375</PrepareTime>
+      <AttackName>Bow</AttackName>
+      <Damage>
+        <Hack>0.1</Hack>
+        <Pierce>3.5</Pierce>
+        <Crush>0</Crush>
+      </Damage>
+      <MaxRange>45</MaxRange>
+      <MinRange>16</MinRange>
+      <PrepareTime>250</PrepareTime>
       <RepeatTime>750</RepeatTime>
       <Delay>0</Delay>
-      <ProjectileSpeed>75.0</ProjectileSpeed>
-      <Spread>1.1</Spread>
-      <Gravity>39.81</Gravity>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <Projectile>
+        <Speed>100.0</Speed>
+        <Spread>0.8</Spread>
+        <Gravity>50.0</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="5"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
     </Ranged>
   </Attack>
   <Identity>
@@ -23,4 +30,14 @@
       special/formations/skirmish
     </Formations>
   </Identity>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/impact/arrow_impact.xml</attack_impact_ranged>
+      <attack_ranged>attack/weapon/bow_attack.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.0625</WalkSpeed>
+  </UnitMotion>
+  <Auras datatype="tokens">weak_control_zone weak_caution_zone</Auras>
 </Entity>

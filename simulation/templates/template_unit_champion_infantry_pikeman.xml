@@ -1,49 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry">
-  <Armour>
-    <Hack op="add">12</Hack>
-    <Pierce op="add">9</Pierce>
-    <Crush>25</Crush>
-  </Armour>
   <Attack>
     <Melee>
-      <Hack>3.0</Hack>
-      <Pierce>6.0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>7.2</MaxRange>
+      <AttackName>Pike</AttackName>
+      <Damage>
+        <Hack>9</Hack>
+        <Pierce>0</Pierce>
+        <Crush>0</Crush>
+      </Damage>
+      <MaxRange>8.5</MaxRange>
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>2000</RepeatTime>
       <Bonuses>
         <BonusCavMelee>
-          <Classes>Cavalry Elephant</Classes>
-          <Multiplier>2.5</Multiplier>
+          <Classes>Cavalry</Classes>
+          <Multiplier>3.0</Multiplier>
         </BonusCavMelee>
       </Bonuses>
-      <PreferredClasses datatype="tokens">Melee Siege Human</PreferredClasses>
+      <PreferredClasses datatype="tokens">Melee Siege Organic</PreferredClasses>
     </Melee>
   </Attack>
-  <Cost>
-    <Resources>
-      <wood>120</wood>
-      <metal>120</metal>
-    </Resources>
-  </Cost>
   <Health>
-    <Max>240</Max>
+    <Max>200</Max>
   </Health>
   <Identity>
-    <VisibleClasses datatype="tokens">Melee Pike</VisibleClasses>
     <GenericName>Champion Pikeman</GenericName>
-    <Tooltip>Counters: 2.5x vs. Cavalry/Elephant.</Tooltip>
+    <Tooltip>Counters: 3× vs Cavalry.</Tooltip>
+    <VisibleClasses datatype="tokens">Melee Pikeman</VisibleClasses>
     <Formations datatype="tokens">
       special/formations/syntagma
-      special/formations/testudo
     </Formations>
   </Identity>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack op="add">9</Hack>
+        <Pierce op="add">5</Pierce>
+        <Crush op="add">5</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/pike_attack.xml</attack_melee>
+    </SoundGroups>
+  </Sound>
   <UnitMotion>
-    <WalkSpeed op="mul">0.8</WalkSpeed>
-    <Run>
-        <Speed op="mul">0.95</Speed>
-    </Run>
+    <WalkSpeed op="mul">0.9</WalkSpeed>
   </UnitMotion>
+  <Auras datatype="tokens">medium_control_zone medium_caution_zone</Auras>
 </Entity>

@@ -2,34 +2,44 @@
 <Entity parent="template_unit_cavalry_melee">
   <Attack>
     <Melee>
-      <Hack>6.0</Hack>
-      <Pierce>12.0</Pierce>
-      <MaxRange>4.5</MaxRange>
+      <AttackName>Spear</AttackName>
+      <Damage>
+        <Hack>9</Hack>
+        <Pierce>0</Pierce>
+        <Crush>0</Crush>
+      </Damage>
       <Bonuses>
         <BonusCavMelee>
           <Classes>Cavalry</Classes>
-          <Multiplier>1.5</Multiplier>
+          <Multiplier>1.25</Multiplier>
         </BonusCavMelee>
       </Bonuses>
-      <RepeatTime>2200</RepeatTime>
-      <PreferredClasses datatype="tokens">Cavalry Ranged Siege Human</PreferredClasses>
+      <MaxRange>6</MaxRange>
+      <PrepareTime>625</PrepareTime>
+      <RepeatTime>1250</RepeatTime>
     </Melee>
   </Attack>
   <Cost>
     <Resources>
-      <wood>60</wood>
+      <wood>50</wood>
     </Resources>
   </Cost>
   <Identity>
-    <VisibleClasses datatype="tokens">Spear</VisibleClasses>
     <GenericName>Cavalry Spearman</GenericName>
-    <Tooltip>Counters: 1.5x vs. Cavalry.</Tooltip>
+    <Tooltip>Counters: 1.25× vs Cavalry.</Tooltip>
+    <VisibleClasses datatype="tokens">Spearman</VisibleClasses>
   </Identity>
-  <Loot>
-    <wood>5</wood>
-    <metal>0</metal>
-  </Loot>
-  <UnitMotion>
-    <WalkSpeed op="mul">1.01</WalkSpeed>
-  </UnitMotion>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack op="add">2</Hack>
+        <Crush op="add">2</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/spear_attack.xml</attack_melee>
+    </SoundGroups>
+  </Sound>
 </Entity>

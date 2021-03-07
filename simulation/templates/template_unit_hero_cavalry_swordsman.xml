@@ -1,25 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_cavalry">
-  <Armour>
-    <Hack op="add">2</Hack>
-    <Pierce op="add">1</Pierce>
-  </Armour>
   <Attack>
     <Melee>
-      <Hack>14.0</Hack>
-      <Pierce>0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>3.5</MaxRange>
-      <PrepareTime>375</PrepareTime>
-      <RepeatTime>750</RepeatTime>
-      <PreferredClasses datatype="tokens">MeleeCavalryPreferredTarget Siege Cavalry Ranged Human</PreferredClasses>
+      <AttackName context="Name of an attack using a double-edged sword.">Sword</AttackName>
+      <Damage>
+        <Hack>12.0</Hack>
+        <Pierce>0.0</Pierce>
+        <Crush>0.0</Crush>
+      </Damage>
+     <MaxRange>6</MaxRange>
+     <PrepareTime>375</PrepareTime>
+     <RepeatTime>750</RepeatTime>
+     <PreferredClasses datatype="tokens">Melee+Cavalry Ranged Siege Organic</PreferredClasses>
     </Melee>
   </Attack>
   <Identity>
-    <VisibleClasses datatype="tokens">Melee Sword</VisibleClasses>
-    <GenericName>Champion Cavalry Swordsman</GenericName>
+    <VisibleClasses datatype="tokens">Melee Swordsman</VisibleClasses>
+    <GenericName>Hero Cavalry Swordsman</GenericName>
   </Identity>
-  <UnitMotion>
-    <WalkSpeed op="mul">1.00</WalkSpeed>
-  </UnitMotion>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack op="add">2</Hack>
+        <Pierce op="add">3</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword_attack.xml</attack_melee>
+    </SoundGroups>
+  </Sound>
+  <Auras datatype="tokens">weak_control_zone medium_caution_zone</Auras>
 </Entity>

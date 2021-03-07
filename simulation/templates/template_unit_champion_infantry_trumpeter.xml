@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry">
+  <Attack>
+    <Melee>
+      <AttackName context="Name of an attack using a double-edged sword.">Sword</AttackName>
+      <Damage>
+        <Hack>4</Hack>
+      </Damage>
+      <MaxRange>3</MaxRange>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <PreferredClasses datatype="tokens">Melee Siege Organic</PreferredClasses>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime op="mul">1.2</BuildTime>
+    <Resources>
+      <food op="add">100</food>
+      <wood>0</wood>
+      <metal op="add">40</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>200</Max>
+  </Health>
+  <Identity>
+    <VisibleClasses datatype="tokens">Melee Trumpeter</VisibleClasses>
+    <GenericName>Champion Infantry Trumpeter</GenericName>
+  </Identity>
+  <Loot>
+    <food op="add">10</food>
+    <wood>0</wood>
+    <metal op="add">4</metal>
+  </Loot>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack op="add">1</Hack>
+        <Pierce op="add">1</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword_attack.xml</attack_melee>
+    </SoundGroups>
+  </Sound>
+  <Auras datatype="tokens">weak_control_zone strong_caution_zone</Auras>
+</Entity>

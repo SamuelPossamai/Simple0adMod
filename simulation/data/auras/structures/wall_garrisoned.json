@@ -2,13 +2,13 @@
     "type": "garrisonedUnits",
     "affects": ["Soldier"],
     "modifications": [
-        { "value": "Armour/Pierce", "add": 3 },
-        { "value": "Armour/Hack", "add": 3 },
-        { "value": "Armour/Crush", "add": 3 },
+        { "value": "Armour/Pierce", "add": 5 },
+        { "value": "Armour/Hack", "add": 5 },
+        { "value": "Armour/Crush", "add": 5 },
         { "value": "Vision/Range", "add": 30 },
-        { "value": "Attack/Ranged/MinRange", "multiply": 0.1 },
-        { "value": "Attack/Ranged/MaxRange", "multiply": 1.1 }
+        { "value": "Attack/Ranged/MinRange", "multiply": 0.01 },
+        { "value": "Attack/Ranged/MaxRange", "multiply": 1.2 }
     ],
     "auraName": "Wall Protection",
-    "auraDescription": "Soldiers on walls have +3 armor, higher vision and higher range."
+    "auraDescription": "Soldiers on walls have +5 armor, higher vision and higher range."
 }

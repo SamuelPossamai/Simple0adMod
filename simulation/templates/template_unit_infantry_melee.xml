@@ -2,13 +2,15 @@
 <Entity parent="template_unit_infantry">
   <Attack>
     <Melee>
-      <Hack>1</Hack>
-      <Pierce>0</Pierce>
-      <Crush>0.0</Crush>
+      <Damage>
+        <Hack>1</Hack>
+        <Pierce>0</Pierce>
+        <Crush>0.0</Crush>
+      </Damage>
       <MaxRange>3.5</MaxRange>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
-      <PreferredClasses datatype="tokens">Melee Siege Human</PreferredClasses>
+      <PreferredClasses datatype="tokens">Melee Siege Organic</PreferredClasses>
     </Melee>
   </Attack>
   <Health>
@@ -21,4 +23,5 @@
       special/formations/testudo
     </Formations>
   </Identity>
+  <Auras datatype="tokens">medium_control_zone medium_caution_zone</Auras>
 </Entity>

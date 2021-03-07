@@ -1,30 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_melee">
-  <Armour>
-    <Hack>4</Hack>
-    <Pierce>2</Pierce>
-  </Armour>
   <Attack>
     <Melee>
-      <Hack>8.5</Hack>
-      <Pierce>0</Pierce>
-      <Crush>0.0</Crush>
-      <RepeatTime>800</RepeatTime>
-      <PreferredClasses datatype="tokens">Siege Cavalry Ranged Human</PreferredClasses>
+      <AttackName context="Name of an attack using a double-edged sword.">Sword</AttackName>
+      <Damage>
+        <Hack>8</Hack>
+        <Pierce>0</Pierce>
+        <Crush>0</Crush>
+      </Damage>
+      <MaxRange>6</MaxRange>
+      <PrepareTime>375</PrepareTime>
+      <RepeatTime>750</RepeatTime>
     </Melee>
   </Attack>
   <Cost>
     <Resources>
-      <wood>40</wood>
-      <metal>20</metal>
+      <wood>45</wood>
+      <metal>5</metal>
     </Resources>
   </Cost>
   <Identity>
-    <VisibleClasses datatype="tokens">Sword</VisibleClasses>
     <GenericName>Cavalry Swordsman</GenericName>
+    <VisibleClasses datatype="tokens">Swordsman</VisibleClasses>
   </Identity>
   <Loot>
-    <wood>0</wood>
-    <metal>5</metal>
+    <wood>4</wood>
+    <metal>1</metal>
   </Loot>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack op="add">-1</Hack>
+        <Crush op="add">-1</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword_attack.xml</attack_melee>
+    </SoundGroups>
+  </Sound>
 </Entity>

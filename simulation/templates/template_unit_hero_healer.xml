@@ -1,39 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero">
-  <Armour>
-    <Hack>4</Hack>
-    <Pierce>8</Pierce>
-    <Crush>4</Crush>
-  </Armour>
   <Attack disable=""/>
   <Cost>
-    <Population>1</Population>
-    <BuildTime>35</BuildTime>
     <Resources>
-      <food>500</food>
-      <wood>0</wood>
-      <metal>100</metal>
+      <food>200</food>
+      <wood>150</wood>
+      <metal>200</metal>
     </Resources>
   </Cost>
   <Heal>
-    <Range>30</Range>
-    <HP>15</HP>
-    <Rate>2000</Rate>
-    <UnhealableClasses datatype="tokens"/>
-    <HealableClasses datatype="tokens">Human</HealableClasses>
+    <Range>40</Range>
     <RangeOverlay>
       <LineTexture>heal_overlay_range.png</LineTexture>
       <LineTextureMask>heal_overlay_range_mask.png</LineTextureMask>
       <LineThickness>0.35</LineThickness>
     </RangeOverlay>
+    <Health>10</Health>
+    <Interval>2000</Interval>
+    <UnhealableClasses datatype="tokens"/>
+    <HealableClasses datatype="tokens">Human</HealableClasses>
   </Heal>
   <Health>
-    <Max>600</Max>
+    <Max>1000</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">-Soldier Healer Support</VisibleClasses>
   </Identity>
-  <Vision>
-    <Range>50</Range>
-  </Vision>
+  <Position>
+    <Anchor>upright</Anchor>
+  </Position>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>-5</Hack>
+        <Pierce>-5</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Selectable>
+    <Overlay>
+      <Shape>
+        <Circle radius="2.0"/>
+      </Shape>
+      <Texture>
+        <MainTexture>128x128/star.png</MainTexture>
+        <MainTextureMask>128x128/star_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <order_heal>voice/{lang}/civ/civ_{phenotype}_heal.xml</order_heal>
+    </SoundGroups>
+  </Sound>
 </Entity>

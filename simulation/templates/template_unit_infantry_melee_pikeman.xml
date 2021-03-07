@@ -1,45 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee">
-  <Armour>
-    <Hack>15</Hack>
-    <Pierce>12</Pierce>
-  </Armour>
   <Attack>
     <Melee>
-      <Hack>1.5</Hack>
-      <Pierce>3.0</Pierce>
-      <MaxRange>7.0</MaxRange>
+      <AttackName>Pike</AttackName>
+      <Damage>
+        <Hack>5</Hack>
+        <Pierce>0</Pierce>
+        <Crush>0</Crush>
+      </Damage>
+      <MaxRange>8.5</MaxRange>
+      <PrepareTime>1000</PrepareTime>
       <RepeatTime>2000</RepeatTime>
       <Bonuses>
         <BonusCavMelee>
-          <Classes>Cavalry Elephant</Classes>
-          <Multiplier>2.5</Multiplier>
+          <Classes>Cavalry</Classes>
+          <Multiplier>3.0</Multiplier>
         </BonusCavMelee>
       </Bonuses>
-      <PreferredClasses datatype="tokens">Melee Siege Human</PreferredClasses>
     </Melee>
   </Attack>
   <Cost>
     <Resources>
-      <food op="add">10</food>
+      <food>60</food>
       <wood>60</wood>
     </Resources>
   </Cost>
   <Identity>
-    <VisibleClasses datatype="tokens">Pike</VisibleClasses>
     <GenericName>Pikeman</GenericName>
-    <Tooltip>Counters: 2.5x vs. Cavalry/Elephant.</Tooltip>
+    <Tooltip>Counters: 3× vs Cavalry.</Tooltip>
+    <VisibleClasses datatype="tokens">Pikeman</VisibleClasses>
     <Formations datatype="tokens">
       special/formations/syntagma
     </Formations>
   </Identity>
   <Loot>
-    <wood>5</wood>
+    <food>6</food>
+    <wood>6</wood>
   </Loot>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>12</Hack>
+        <Pierce>8</Pierce>
+        <Crush>14</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/pike_attack.xml</attack_melee>
+    </SoundGroups>
+  </Sound>
   <UnitMotion>
-    <WalkSpeed op="mul">0.75</WalkSpeed>
-    <Run>
-        <Speed op="mul">0.9</Speed>
-    </Run>
+    <WalkSpeed op="mul">0.9</WalkSpeed>
   </UnitMotion>
 </Entity>
