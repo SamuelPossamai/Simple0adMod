@@ -47,7 +47,7 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
-    <WalkSpeed op="mul">1.25</WalkSpeed>
+    <WalkSpeed op="mul">1.3</WalkSpeed>
   </UnitMotion>
   <Auras datatype="tokens">weak_caution_zone</Auras>
 </Entity>

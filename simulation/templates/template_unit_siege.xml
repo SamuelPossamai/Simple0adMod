@@ -27,10 +27,11 @@
   <Resistance>
     <Entity>
       <ApplyStatus>
-        <Burning>
-            <Duration>0.2</Duration>
-            <BlockChance>0.8</BlockChance>
-        </Burning>
+        <Burning disable=""/>
+        <Poisoned>
+            <Duration>0</Duration>
+            <BlockChance>1</BlockChance>
+        </Poisoned>
       </ApplyStatus>
       <Damage>
         <Hack>1</Hack>
@@ -63,6 +64,7 @@
     <CanGuard>false</CanGuard>
   </UnitAI>
   <UnitMotion>
+    <WalkSpeed op="mul">0.9</WalkSpeed>
     <PassabilityClass>large</PassabilityClass>
     <RunMultiplier>1</RunMultiplier>
   </UnitMotion>
