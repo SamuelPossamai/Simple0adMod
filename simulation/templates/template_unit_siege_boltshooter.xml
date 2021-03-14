@@ -5,8 +5,8 @@
       <AttackName>Bolt</AttackName>
       <Damage>
         <Hack>0</Hack>
-        <Pierce>240</Pierce>
-        <Crush>0</Crush>
+        <Pierce>220</Pierce>
+        <Crush>20</Crush>
       </Damage>
       <MaxRange>90</MaxRange>
       <MinRange>15</MinRange>
@@ -16,7 +16,7 @@
       <Bonuses>
         <BonusStructure>
           <Classes>Structure</Classes>
-          <Multiplier>10.0</Multiplier>
+          <Multiplier>5.0</Multiplier>
         </BonusStructure>
       </Bonuses>
       <Projectile>
@@ -54,7 +54,7 @@
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Ranged BoltShooter</VisibleClasses>
-    <Tooltip>Counters: 10× vs Structure.</Tooltip>
+    <Tooltip>Counters: 5× vs Structure.</Tooltip>
     <GenericName>Bolt Shooter</GenericName>
   </Identity>
   <Loot>
@@ -65,6 +65,13 @@
   <Pack>
     <Time>10000</Time>
   </Pack>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce op="add">-5</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
   <Sound>
     <SoundGroups>
       <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>

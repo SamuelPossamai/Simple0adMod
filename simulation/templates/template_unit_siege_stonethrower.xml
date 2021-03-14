@@ -16,7 +16,7 @@
       <Bonuses>
         <BonusStructure>
           <Classes>Structure</Classes>
-          <Multiplier>10.0</Multiplier>
+          <Multiplier>5.0</Multiplier>
         </BonusStructure>
       </Bonuses>
       <Projectile>
@@ -47,7 +47,7 @@
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Ranged StoneThrower</VisibleClasses>
-    <Tooltip>Counters: 10× vs Structure.</Tooltip>
+    <Tooltip>Counters: 5× vs Structure.</Tooltip>
     <GenericName>Siege Catapult</GenericName>
   </Identity>
   <Loot>
@@ -58,6 +58,13 @@
   <Pack>
     <Time>10000</Time>
   </Pack>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce op="add">-5</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
   <Sound>
     <SoundGroups>
       <attack_impact_ranged>attack/impact/siegeprojectilehit.xml</attack_impact_ranged>

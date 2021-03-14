@@ -4,9 +4,8 @@
     <Capture>
       <AttackName>Capture</AttackName>
       <Capture>20</Capture>
-      <MaxRange>4</MaxRange>
+      <MaxRange>8</MaxRange>
       <RepeatTime>1000</RepeatTime>
-      <RestrictedClasses datatype="tokens">Field Palisade Wall</RestrictedClasses>
     </Capture>
   </Attack>
   <Auras datatype="tokens">

@@ -14,7 +14,7 @@
       <Bonuses>
         <BonusStructure>
           <Classes>Structure</Classes>
-          <Multiplier>10.0</Multiplier>
+          <Multiplier>5.0</Multiplier>
         </BonusStructure>
       </Bonuses>
       <PreferredClasses datatype="tokens">Gate Defensive Structure</PreferredClasses>
@@ -43,7 +43,7 @@
     <VisibleClasses datatype="tokens">Melee Ram</VisibleClasses>
     <GenericName>Battering Ram</GenericName>
     <Tooltip>Cannot attack Fields or Organic Units.
-Counters: 10× vs Structure.</Tooltip>
+Counters: 5× vs Structure.</Tooltip>
   </Identity>
   <Loot>
     <xp>200</xp>
