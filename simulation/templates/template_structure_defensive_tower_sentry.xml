@@ -3,7 +3,7 @@
   <Attack>
     <Ranged>
       <Damage>
-        <Pierce>4</Pierce>
+        <Pierce>3.5</Pierce>
       </Damage>
       <ElevationBonus>9</ElevationBonus>
     </Ranged>
