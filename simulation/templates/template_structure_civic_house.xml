@@ -34,7 +34,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>
   <Loot>
-    <wood>15</wood>
+    <wood>20</wood>
   </Loot>
   <Obstruction>
     <Static width="11.0" depth="11.0"/>
