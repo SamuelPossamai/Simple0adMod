@@ -6,12 +6,12 @@
       <Damage>
         <Hack>0</Hack>
         <Pierce>0</Pierce>
-        <Crush>210</Crush>
+        <Crush>150</Crush>
       </Damage>
       <MaxRange>80</MaxRange>
       <MinRange>40</MinRange>
       <PrepareTime>6000</PrepareTime>
-      <RepeatTime>7000</RepeatTime>
+      <RepeatTime>8000</RepeatTime>
       <Delay>0</Delay>
       <Bonuses>
         <BonusStructure>

@@ -8,9 +8,9 @@
         <Pierce>0.0</Pierce>
         <Crush>150.0</Crush>
       </Damage>
-      <MaxRange>6.5</MaxRange>
-      <PrepareTime>750</PrepareTime>
-      <RepeatTime>1500</RepeatTime>
+      <MaxRange>7</MaxRange>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>2500</RepeatTime>
       <Bonuses>
         <BonusStructure>
           <Classes>Structure</Classes>

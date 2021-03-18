@@ -5,7 +5,7 @@
     <Category>Wall</Category>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>50000</CapturePoints>
+    <CapturePoints>25000</CapturePoints>
   </Capturable>
   <Footprint>
     <Square width="6.0" depth="6.0"/>

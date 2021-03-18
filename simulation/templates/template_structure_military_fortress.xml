@@ -76,7 +76,7 @@
   </Identity>
   <Loot>
     <wood>200</wood>
-    <stone>200</stone>
+    <stone>400</stone>
   </Loot>
   <Obstruction>
     <Static width="25.0" depth="25.0"/>
