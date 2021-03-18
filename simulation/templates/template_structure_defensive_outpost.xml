@@ -64,9 +64,7 @@
   <StatusBars>
     <HeightOffset>14.0</HeightOffset>
   </StatusBars>
-  <TerritoryDecay>
-    <DecayRate>0</DecayRate>
-  </TerritoryDecay>
+  <TerritoryDecay disable=""/>
   <TurretHolder>
     <TurretPoints>
       <One>

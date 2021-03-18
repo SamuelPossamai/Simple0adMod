@@ -96,16 +96,16 @@
   <Resistance>
     <Entity>
       <Damage>
-        <Hack>15</Hack>
-        <Pierce>25</Pierce>
-        <Crush>2</Crush>
+        <Hack>30</Hack>
+        <Pierce>50</Pierce>
+        <Crush>30</Crush>
       </Damage>
     </Entity>
     <Foundation>
       <Damage>
-        <Hack>30</Hack>
-        <Pierce>50</Pierce>
-        <Crush>30</Crush>
+        <Hack>1</Hack>
+        <Pierce>5</Pierce>
+        <Crush>1</Crush>
       </Damage>
     </Foundation>
   </Resistance>
@@ -117,9 +117,7 @@
       <attack_impact_ranged>attack/impact/arrow_impact.xml</attack_impact_ranged>
     </SoundGroups>
   </Sound>
-  <TerritoryDecay>
-    <DecayRate>0</DecayRate>
-  </TerritoryDecay>
+  <TerritoryDecay disable=""/>
   <Vision>
     <Range>100</Range>
   </Vision>
