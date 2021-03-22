@@ -6,9 +6,9 @@
       <Damage>
         <Hack>0</Hack>
         <Pierce>4</Pierce>
-        <Crush>0</Crush>
+        <Crush>0.2</Crush>
       </Damage>
-      <MaxRange>50</MaxRange>
+      <MaxRange>60</MaxRange>
       <MinRange>16</MinRange>
       <PrepareTime>750</PrepareTime>
       <RepeatTime>1250</RepeatTime>
