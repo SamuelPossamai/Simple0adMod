@@ -23,5 +23,5 @@
       special/formations/testudo
     </Formations>
   </Identity>
-  <Auras datatype="tokens">medium_control_zone medium_caution_zone</Auras>
+  <Auras datatype="tokens">medium_caution_zone</Auras>
 </Entity>

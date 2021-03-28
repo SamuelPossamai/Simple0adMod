@@ -9,7 +9,7 @@
             <Poison>1.0</Poison>
           </Damage>
           <Stackability>Extend</Stackability>
-          <Duration>180000</Duration>
+          <Duration>10000</Duration>
         </Poisoned>
       </ApplyStatus>
     </Ranged>

@@ -20,6 +20,13 @@
         <FriendlyFire>false</FriendlyFire>
         <LaunchPoint y="3"/>
       </Projectile>
+      <Bonuses>
+        <PrimaryBonus>
+          <Classes>Animal</Classes>
+          <Multiplier>3</Multiplier>
+        </PrimaryBonus>
+      </Bonuses>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
     </Ranged>
   </Attack>
   <Cost>

@@ -31,5 +31,5 @@
       <attack_melee>attack/weapon/sword_attack.xml</attack_melee>
     </SoundGroups>
   </Sound>
-  <Auras datatype="tokens">weak_control_zone medium_caution_zone</Auras>
+  <Auras datatype="tokens">medium_caution_zone</Auras>
 </Entity>

@@ -44,5 +44,5 @@
       </Damage>
     </Entity>
   </Resistance>
-  <Auras datatype="tokens">weak_control_zone weak_caution_zone</Auras>
+  <Auras datatype="tokens">weak_caution_zone</Auras>
 </Entity>

@@ -42,5 +42,5 @@
       <attack_melee>attack/weapon/spear_attack.xml</attack_melee>
     </SoundGroups>
   </Sound>
-  <Auras datatype="tokens">medium_control_zone medium_caution_zone</Auras>
+  <Auras datatype="tokens">medium_caution_zone</Auras>
 </Entity>
