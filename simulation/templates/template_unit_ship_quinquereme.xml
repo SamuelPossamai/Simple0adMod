@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship">
+  <Attack>
+    <Ranged>
+      <AttackName>Stone</AttackName>
+      <Damage>
+        <Hack>0</Hack>
+        <Pierce>0</Pierce>
+        <Crush>150</Crush>
+      </Damage>
+      <MaxRange>70</MaxRange>
+      <MinRange>30</MinRange>
+      <PrepareTime>4000</PrepareTime>
+      <RepeatTime>8000</RepeatTime>
+      <Delay>0</Delay>
+      <Projectile>
+        <Speed>40.0</Speed>
+        <Spread>7.0</Spread>
+        <Gravity>20.0</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+      <Bonuses>
+        <BonusStructure>
+          <Classes>Structure</Classes>
+          <Multiplier>5.0</Multiplier>
+        </BonusStructure>
+        <BonusShip>
+          <Classes>Ship</Classes>
+          <Multiplier>3</Multiplier>
+        </BonusShip>
+      </Bonuses>
+      <PreferredClasses datatype="tokens">Ship Structure</PreferredClasses>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>3</DefaultArrowCount>
+    <MaxArrowCount>10</MaxArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <GarrisonArrowClasses>StoneThrower</GarrisonArrowClasses>
+  </BuildingAI>
+  <Cost>
+    <Population>15</Population>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <wood>1200</wood>
+      <metal>500</metal>
+      <stone>350</stone>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <Max>80</Max>
+    <List datatype="tokens">Support Soldier Siege</List>
+  </GarrisonHolder>
+  <Health>
+    <Max>4000</Max>
+  </Health>
+  <Identity>
+    <GenericName>Heavy Warship</GenericName>
+    <Tooltip>Garrison unit for transport and catapults to increase firepower.
+Counters: 5× Structure, 3× Ship</Tooltip>
+    <VisibleClasses datatype="tokens">Ranged Warship Quinquereme</VisibleClasses>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+  </Identity>
+  <Loot>
+    <xp>500</xp>
+    <wood>300</wood>
+    <metal>100</metal>
+  </Loot>
+  <Position>
+    <TurnRate>2</TurnRate>
+  </Position>
+  <ResourceGatherer disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/siege/ballist_attack.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.8</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>110</Range>
+  </Vision>
+</Entity>

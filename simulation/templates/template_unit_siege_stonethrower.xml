@@ -18,6 +18,10 @@
           <Classes>Structure</Classes>
           <Multiplier>5.0</Multiplier>
         </BonusStructure>
+        <BonusShip>
+          <Classes>Ship</Classes>
+          <Multiplier>3</Multiplier>
+        </BonusShip>
       </Bonuses>
       <Projectile>
         <Speed>40.0</Speed>
@@ -43,11 +47,11 @@
     <Height>4.5</Height>
   </Footprint>
   <Health>
-    <Max>250</Max>
+    <Max>300</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Ranged StoneThrower</VisibleClasses>
-    <Tooltip>Counters: 5× vs Structure.</Tooltip>
+    <Tooltip>Counters: 5× Structure, 3× Ship</Tooltip>
     <GenericName>Siege Catapult</GenericName>
   </Identity>
   <Loot>
