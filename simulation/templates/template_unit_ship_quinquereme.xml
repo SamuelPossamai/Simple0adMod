@@ -53,7 +53,7 @@
     <List datatype="tokens">Support Soldier Siege</List>
   </GarrisonHolder>
   <Health>
-    <Max>4000</Max>
+    <Max>5000</Max>
   </Health>
   <Identity>
     <GenericName>Heavy Warship</GenericName>

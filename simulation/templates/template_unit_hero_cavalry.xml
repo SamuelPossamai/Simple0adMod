@@ -56,5 +56,4 @@
     <WalkSpeed op="mul">2</WalkSpeed>
     <RunMultiplier>1.4</RunMultiplier>
   </UnitMotion>
-  <Auras datatype="tokens">small_trample</Auras>
 </Entity>

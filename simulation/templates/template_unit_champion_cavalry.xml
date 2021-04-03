@@ -61,5 +61,4 @@
   <Vision>
     <Range>96</Range>
   </Vision>
-  <Auras datatype="tokens">small_trample</Auras>
 </Entity>
